@@ -1,0 +1,16 @@
+html,
+.nav-link{
+    font-family: 'Bebas Neue', cursive;
+
+    
+    font-size: 20px;
+}   
+
+.downloadbtn {
+    font-family: 'Merriweather Sans', sans-serif;
+   
+    padding: 7px 2px;
+    font-size: 24px;
+    border-radius: 42px;
+    width: 15%;
+}
