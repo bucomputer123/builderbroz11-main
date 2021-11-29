@@ -14,3 +14,6 @@ def services(request):
 def contact(request):
     return render(request,'contact.html')
 
+
+def donate(request):
+    return render(request,'donate.html')
