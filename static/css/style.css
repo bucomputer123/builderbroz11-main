@@ -34,6 +34,7 @@ html,
     border-color:#3DB2FF;
     box-sizing: border-box;
     box-shadow:2px 2px 2px 2px #124c69;
+    
 
     
 }
@@ -48,6 +49,7 @@ html,
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    
   }
     
   .container {
@@ -137,6 +139,7 @@ html,
   }
     
   .submit-now-btn {
+    background-image: url('img_girl.jpg');
     cursor: pointer;
     color: #fff;
     height: 30px;
@@ -145,3 +148,26 @@ html,
     margin: 5px 30px;
     background-color: rgb(71, 177, 61);
   }
+
+  .back{
+    background-color: #122349;
+    background-image: url('/static/websiteback.png');
+    background-attachment: fixed; 
+    background-size: 80% 100%;
+    
+
+  }
+  .dbs-div {
+    background-image: url('/static/dbs.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 1rem;
+    padding: 31rem 0rem 1rem 13rem;
+    position: relative !important;
+    overflow: hidden;
+  
+}
+.in-div{
+  margin-left: 52rem;
+  overflow: visible;
+}
