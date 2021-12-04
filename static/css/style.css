@@ -8,7 +8,6 @@ html,
 
 .download-btn {
     font-family: 'Merriweather Sans', sans-serif;
-   
     padding: 7px 2px;
     font-size: 24px;
     border-radius: 42px;
@@ -171,3 +170,48 @@ html,
   margin-left: 52rem;
   overflow: visible;
 }
+
+@media (min-width:992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg,#ff6a00,#ee0979);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.text-white {
+  color: #fff!important;
+
+ 
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Catamaran', sans-serif; 
+ 
+}
+h1{
+  font-size: 4rem;
+}
+.col-md-5{
+  width: 50%;
+}
+.px-md-5 {
+  padding-right: 10rem !important;
+  padding-left: 10rem !important;
+}
+
