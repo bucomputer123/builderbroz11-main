@@ -13,7 +13,7 @@ nav{
 }
 
 #peram{
-  height: auto;
+  /* height:44px; */
   /* border: 2px solid forestgreen; */
   /* margin: 23px; */
   margin-top: 29px;
@@ -57,6 +57,15 @@ nav{
     box-shadow:2px 2px 2px 2px #124c69;
   
 }
+#more{
+  margin-right: 23px;
+}
+#dd{
+	/* text-align: left;	 */
+float: right;
+margin-top: 12px;
+  display:block;
+}
 
 
 * {
@@ -86,13 +95,97 @@ nav{
     /* border-top-right-radius: 150px; */
   }
     
-
+  .main-content {
+    height: 235px;
+    background-color: #1b9236;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 80px;
+    border-top: #1e6b30;
+  }
     
   .text {
     text-align: center;
     font-size: 300%;
     text-decoration: aliceblue;
     color: aliceblue;
+  }
+    
+  /* .course {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+     */
+  .centre-content {
+    height: 180px;
+    margin: -70px 30px 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 0.5px;
+    background-image: linear-gradient(#1e6b30, #308d46);
+  }
+    
+  .centre-content-h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+  }
+    
+  .price {
+    font-size: 60px;
+    margin-left: 5px;
+    bottom: 15px;
+    position: relative;
+  }
+    
+  .pay-now-btn {
+    cursor: pointer;
+    color: #fff;
+    height: 50px;
+    width: 290px;
+    border: none;
+    margin: 5px 30px;
+    background-color: rgb(71, 177, 61);
+    position: relative;
+  }
+    
+  .card-details {
+    background: rgb(8, 49, 14);
+    color: rgb(225, 223, 233);
+    margin: 10px 30px;
+    padding: 10px;
+    /* border-bottom-left-radius: 80px; */
+  }
+    
+  .card-details p {
+    font-size: 15px;
+  }
+    
+  .card-details label {
+    font-size: 15px;
+    line-height: 35px;
+  }
+    
+  .submit-now-btn {
+    background-image: url('img_girl.jpg');
+    cursor: pointer;
+    color: #fff;
+    height: 30px;
+    width: 240px;
+    border: none;
+    margin: 5px 30px;
+    background-color: rgb(71, 177, 61);
+  }
+
+  .back{
+    background-color: #122349;
+    background-image: url('/static/websiteback.png');
+    background-attachment: fixed; 
+    background-size: 80% 100%;
+    
+
   }
   .aman::before{
    /* content: "";
@@ -110,7 +203,7 @@ nav{
     background-image: url('/static/dbs.jpg');
     background-repeat: no-repeat;
     width: 96%;
-    height: 80%;
+    height: 95%;
     /* display: block; */
     /* background-size: 100% ; */
     margin: 29px;
@@ -124,7 +217,36 @@ nav{
   overflow: visible;
 }
 
+@media (min-width:992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  } }
+  @media (max-width:769px) {
+  #peram{
+    margin-left: 90px;
+    width: 66%;
+    height: 26%;
 
+  }
+}
+@media (max-width:777px) {
+  nav{
+  width: 105%;
+  }
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg,#ff6a00,#ee0979);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: scroll;
+  background-size: cover;
+}
 
 .text-white {
   color: #fff!important;
@@ -170,7 +292,19 @@ z-index: -1;
 
  /* FOR CONTACT USED */
 
+ .fa{
+   font-size: 50px;
+  padding: 20px;
+  width: 138px;
+  height: 132px;  
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
+.fa:hover {
+    opacity: 0.7;
+}
 
 .fa-facebook {
   
@@ -187,8 +321,8 @@ z-index: -1;
 
 }
 
-.fa-twitter {
-  background: #55ACEE;
+.fa-instagram  {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
   color: white;
   margin: 44px;
   padding-top: 43px;
@@ -198,8 +332,17 @@ z-index: -1;
   padding-bottom: 28px;
 
 }
-.fa-google {margin: 44px;
-  background: #dd4b39;
+.fa-linkedin {margin: 44px;
+  background: #028dff;
+  color: white;
+  padding-top: 43px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding-right: 70px;
+  padding-left: 50px;
+  padding-bottom: 28px;
+}
+.fa-youtube{margin: 44px;
+  background: #eb0909;
   color: white;
   padding-top: 43px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -226,6 +369,16 @@ width: 100%;
 opacity:0.3;
 z-index: -1;
 }
+/* #ake::before{
+  content:'';
+  position: absolute;
+  background-image: url(/static/562199-cool-us-navy-background-1920x1080-for-tablet.jpg);
+  background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+opacity:0.3;
+z-index: -1;
+} */
 @media (max-width:777px) {
   #contact{
   width: 104%;
