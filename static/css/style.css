@@ -13,7 +13,7 @@ nav{
 }
 
 #peram{
-  height: auto;
+  /* height:44px; */
   /* border: 2px solid forestgreen; */
   /* margin: 23px; */
   margin-top: 29px;
@@ -203,7 +203,7 @@ margin-top: 12px;
     background-image: url('/static/dbs.jpg');
     background-repeat: no-repeat;
     width: 96%;
-    height: 80%;
+    height: 95%;
     /* display: block; */
     /* background-size: 100% ; */
     margin: 29px;
@@ -321,8 +321,8 @@ z-index: -1;
 
 }
 
-.fa-twitter {
-  background: #55ACEE;
+.fa-instagram  {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
   color: white;
   margin: 44px;
   padding-top: 43px;
@@ -332,8 +332,17 @@ z-index: -1;
   padding-bottom: 28px;
 
 }
-.fa-google {margin: 44px;
-  background: #dd4b39;
+.fa-linkedin {margin: 44px;
+  background: #028dff;
+  color: white;
+  padding-top: 43px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding-right: 70px;
+  padding-left: 50px;
+  padding-bottom: 28px;
+}
+.fa-youtube{margin: 44px;
+  background: #eb0909;
   color: white;
   padding-top: 43px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -360,6 +369,16 @@ width: 100%;
 opacity:0.3;
 z-index: -1;
 }
+/* #ake::before{
+  content:'';
+  position: absolute;
+  background-image: url(/static/562199-cool-us-navy-background-1920x1080-for-tablet.jpg);
+  background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+opacity:0.3;
+z-index: -1;
+} */
 @media (max-width:777px) {
   #contact{
   width: 104%;
