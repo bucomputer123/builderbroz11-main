@@ -4,9 +4,7 @@ html,
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
 }   
-nav{
-  width: 101%;
-}
+
 .peragraph{
   /* margin-left:auto; */
   margin: 22px;
@@ -21,15 +19,7 @@ nav{
   background-color:#091328;
   color: white;
 }
-#button{
-  background: linear-gradient(
-    90deg
-    , rgba(2,0,36,1) 0%, rgb(16 16 147) 35%, rgb(45 0 78) 100%);
-    }
-#fimg{
-  border: 5px solid forestgreen;
 
-}
 .download-btn {
     font-family: 'Merriweather Sans', sans-serif;
     padding: 7px 2px;
@@ -57,22 +47,9 @@ nav{
     box-shadow:2px 2px 2px 2px #124c69;
   
 }
-#more{
-  margin-right: 23px;
-}
-#dd{
-	/* text-align: left;	 */
-float: right;
-margin-top: 12px;
-  display:block;
-}
 
 
-* {
-    margin: 0;
-    padding: 0;
-  }
-    
+
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -95,13 +72,7 @@ margin-top: 12px;
     /* border-top-right-radius: 150px; */
   }
     
-  .main-content {
-    height: 235px;
-    background-color: #1b9236;
-    border-bottom-left-radius: 90px;
-    border-bottom-right-radius: 80px;
-    border-top: #1e6b30;
-  }
+ 
     
   .text {
     text-align: center;
@@ -110,94 +81,26 @@ margin-top: 12px;
     color: aliceblue;
   }
     
-  /* .course {
-    color: black;
-    font-size: 25px;
-    font-weight: bolder;
-  }
-     */
-  .centre-content {
-    height: 180px;
-    margin: -70px 30px 20px;
-    color: aliceblue;
-    text-align: center;
-    font-size: 20px;
-    border-radius: 25px;
-    padding-top: 0.5px;
-    background-image: linear-gradient(#1e6b30, #308d46);
-  }
+
+  
+
+
     
-  .centre-content-h1 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-weight: normal;
-  }
-    
-  .price {
-    font-size: 60px;
-    margin-left: 5px;
-    bottom: 15px;
-    position: relative;
-  }
-    
-  .pay-now-btn {
-    cursor: pointer;
-    color: #fff;
-    height: 50px;
-    width: 290px;
-    border: none;
-    margin: 5px 30px;
-    background-color: rgb(71, 177, 61);
-    position: relative;
-  }
-    
-  .card-details {
-    background: rgb(8, 49, 14);
-    color: rgb(225, 223, 233);
-    margin: 10px 30px;
-    padding: 10px;
-    /* border-bottom-left-radius: 80px; */
-  }
-    
-  .card-details p {
-    font-size: 15px;
-  }
-    
-  .card-details label {
-    font-size: 15px;
-    line-height: 35px;
-  }
-    
-  .submit-now-btn {
-    background-image: url('img_girl.jpg');
-    cursor: pointer;
-    color: #fff;
-    height: 30px;
-    width: 240px;
-    border: none;
-    margin: 5px 30px;
-    background-color: rgb(71, 177, 61);
-  }
+ 
+
 
   .back{
     background-color: #122349;
     background-image: url('/static/websiteback.png');
-    background-attachment: fixed; 
-    background-size: 80% 100%;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
     
 
   }
-  .aman::before{
-   /* content: "";
-   position: absolute;
-   background-image: url(/static/dbs.jpg);
-   background-repeat: no-repeat;
-   height: 250%;
-   width: 100%;
-   z-index: -1;
-   opacity: 0.5; */
-
-  }
+ 
+  
   .dbs-div img{
     /* display:flex; */
     background-image: url('/static/dbs.jpg');
@@ -217,36 +120,8 @@ margin-top: 12px;
   overflow: visible;
 }
 
-@media (min-width:992px) {
-  header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
-  } }
-  @media (max-width:769px) {
-  #peram{
-    margin-left: 90px;
-    width: 66%;
-    height: 26%;
 
-  }
-}
-@media (max-width:777px) {
-  nav{
-  width: 105%;
-  }
-}
 
-header.masthead {
-  position: relative;
-  overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background: linear-gradient(0deg,#ff6a00,#ee0979);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-attachment: scroll;
-  background-size: cover;
-}
 
 .text-white {
   color: #fff!important;
@@ -359,31 +234,7 @@ z-index: -1;
   height: 100%;
   margin-top: 300px;
 }
-#contact::before{
-  content:"";
-  position: absolute;
-  background-image: url(/static/contectus_back[4].png);
-  background-repeat: no-repeat;
-height: 110%;
-width: 100%;
-opacity:0.3;
-z-index: -1;
-}
-/* #ake::before{
-  content:'';
-  position: absolute;
-  background-image: url(/static/562199-cool-us-navy-background-1920x1080-for-tablet.jpg);
-  background-repeat: no-repeat;
-height: 100%;
-width: 100%;
-opacity:0.3;
-z-index: -1;
-} */
-@media (max-width:777px) {
-  #contact{
-  width: 104%;
-  margin-top: 45px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  }
-}
+
+
+
+
