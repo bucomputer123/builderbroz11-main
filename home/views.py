@@ -17,3 +17,6 @@ def contact(request):
 
 def donate(request):
     return render(request,'donate.html')
+
+def download(request):
+    return render(request,'download.html')
