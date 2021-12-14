@@ -47,14 +47,20 @@ html,
 }
 /* --------------------------------------------------------------------------------------------------------- */
 
-/* ABOUT US*/
+/* h1's*/
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Catamaran', sans-serif; 
   color:white;
  
 }
- h1{
+h1{
+  font-size: 5rem;
+}
+.game-headings{
   margin-top: 5px;width: 375.5px;font-size: 43.3px;font-family: 'Bebas Neue', cursive;color: rgb(0,42,59);
+}
+p{
+  color: rgb(199, 199, 199);
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
@@ -68,21 +74,12 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1000px;
   margin-bottom: 3rem;
 }
-.row-about{
-  text-align: center;
-  /* margin-top: 174px; */
-  /* margin-bottom: 158px; */
-}
-.col-about{
-  height: 264px;
-  margin-top: 96px;
-}
 
 /* --------------------------------------------------------------------------------------------------------- */
 
 /* images */
 
-.col-md-12{
+.img-div{
   overflow: hidden;
   margin-top: 12px;
   width: auto;
@@ -120,31 +117,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* --------------------------------------------------------------------------------------------------------- */
 /* about */
-.about-container{
-  justify-content: center;
-  max-width: 1000px;
-  align-items: center;
-  text-align: center;
-}
 .row-about{
   text-align: center;
   margin-top: 174px;
   margin-bottom: 130px;
   border-radius: 15px;
+  height: 390px;
 }
-.col-md-1{
-  height: 349px;
-  margin-top: 24px;
+.name{
+  font-size: 1.5rem;
+  margin-top: 18px;
+ 
 }
-.Heading2{
-  font-size: 78.88px;text-align: center;color: rgb(255, 255, 255);font-family: Catamaran, sans-serif; margin-top: 2rem;
-}
-.Heading1{
-  color: rgb(255, 255, 255);font-family: Catamaran, sans-serif;margin-top: 13px;
-}
-.row-section-about{
-  text-align: center;
-}
-.col-section-about{
-  padding-right: 12px;width: 320px;
+.team-cards{
+  text-align: center;margin-top: 31px;margin-bottom: 63px;
 }
