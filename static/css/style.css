@@ -7,6 +7,7 @@ html,
     --tds-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     --tds-base-font_size:var(--tds-font-size--30);
 }   
+
 /* --------------------------------------------------------------------------------------------------------- */
 
 /* LOGO */
@@ -52,12 +53,98 @@ h1, h2, h3, h4, h5, h6 {
   color:white;
  
 }
-h1{
-  font-size: 1rem;
+ h1{
+  margin-top: 5px;width: 375.5px;font-size: 43.3px;font-family: 'Bebas Neue', cursive;color: rgb(0,42,59);
 }
 
+/* --------------------------------------------------------------------------------------------------------- */
 
+/* containers */
+.games-container{
+  box-shadow: 2px 8px 20px 1px;
+  border-radius: 12px;
+  background: #d3d3d3;
+  width: auto;
+  max-width: 1000px;
+  margin-bottom: 3rem;
+}
+.row-about{
+  text-align: center;
+  /* margin-top: 174px; */
+  /* margin-bottom: 158px; */
+}
+.col-about{
+  height: 264px;
+  margin-top: 96px;
+}
 
+/* --------------------------------------------------------------------------------------------------------- */
 
+/* images */
 
+.col-md-12{
+  overflow: hidden;
+  margin-top: 12px;
+  width: auto;
+  width: auto;
+}
 
+.img{
+  width: 100%;
+  min-width: auto;
+  max-width: 50rem; 
+  border-radius: 5px;
+}
+.col-head{
+  padding-left: 13px;
+  text-align: left;
+  width: 400px;
+  padding-right: 12px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+.col-btn{
+  text-align: right;
+  padding-right: 12px;
+  padding-left: 0px;
+  width: 250px;
+  margin-bottom: 12px;
+}
+.download-btn{
+  margin-top: 12px;
+  width: 163.5px;
+  background: linear-gradient(9deg, var(--bs-blue) 0%, #2e5184 100%);
+  border-radius: 19;
+  text-align: center;
+  font-family: 'Black Han Sans', sans-serif;
+}
+/* --------------------------------------------------------------------------------------------------------- */
+/* about */
+.about-container{
+  justify-content: center;
+  max-width: 1000px;
+  align-items: center;
+  text-align: center;
+}
+.row-about{
+  text-align: center;
+  margin-top: 174px;
+  margin-bottom: 130px;
+  border-radius: 15px;
+}
+.col-md-1{
+  height: 349px;
+  margin-top: 24px;
+}
+.Heading2{
+  font-size: 78.88px;text-align: center;color: rgb(255, 255, 255);font-family: Catamaran, sans-serif; margin-top: 2rem;
+}
+.Heading1{
+  color: rgb(255, 255, 255);font-family: Catamaran, sans-serif;margin-top: 13px;
+}
+.row-section-about{
+  text-align: center;
+}
+.col-section-about{
+  padding-right: 12px;width: 320px;
+}
