@@ -8,6 +8,7 @@ html,
     --tds-base-font_size:var(--tds-font-size--30);
 }   
 
+
 /* --------------------------------------------------------------------------------------------------------- */
 
 /* LOGO */
@@ -117,6 +118,16 @@ p{
 }
 /* --------------------------------------------------------------------------------------------------------- */
 /* about */
+.row-ab::before{
+  content:'';
+  height: 100%;
+  width: 100%;
+  /* background-image:url(/static/562199-cool-us-navy-background-1920x1080-for-tablet.jpg); */
+  background-color: yellowgreen;
+  opacity:0.5;
+  z-index:-1;
+}
+
 .row-about{
   text-align: center;
   margin-top: 174px;
@@ -130,5 +141,7 @@ p{
  
 }
 .team-cards{
-  text-align: center;margin-top: 31px;margin-bottom: 63px;
+  text-align: center;
+  margin-top: 31px;
+  margin-bottom: 63px;
 }
