@@ -118,15 +118,15 @@ p{
 }
 /* --------------------------------------------------------------------------------------------------------- */
 /* about */
-.row-ab::before{
+/* .row-ab::before{
   content:'';
   height: 100%;
   width: 100%;
-  /* background-image:url(/static/562199-cool-us-navy-background-1920x1080-for-tablet.jpg); */
+  background-image:url(/static/562199-cool-us-navy-background-1920x1080-for-tablet.jpg);
   background-color: yellowgreen;
   opacity:0.5;
   z-index:-1;
-}
+} */
 
 .row-about{
   text-align: center;
