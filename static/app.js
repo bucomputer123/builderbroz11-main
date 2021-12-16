@@ -2,6 +2,8 @@
 
 $(window).load(function () {
 
+ 
+
   
     var d = Math.random()*360+1;
     
@@ -28,3 +30,8 @@ var r = (Math.random()*-2+1);
         });
     });
 });
+
+$('.rotate').hover(function(){
+    $(this).addClass("pluse" , "animated");
+    console.log("yo");
+  });
