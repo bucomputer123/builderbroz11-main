@@ -162,20 +162,16 @@ p{
   z-index: -1;
 }
 
-.linear {
-  animation-timing-function: linear;
+.subscribe-btn{
+  margin-top: 1rem; 
+  border-radius: 25px; 
+  width: 200px; 
+  box-shadow: 1px 1px 10px rgba(37, 37, 37, 0.212) ; 
+  background-color:  red; 
+  color: aliceblue ; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.infinite {
-  animation-iteration-count: infinite;
+.youtube-back{
+  z-index: -1;
 }
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-

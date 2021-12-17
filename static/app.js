@@ -1,40 +1,50 @@
 
 
 // Get Subscribers
-const youtubeKey = 'AIzaSyDAob2jCLtCUWivr2KIPO1LPVAvIz1q-gs';
-const youtubeUser = 'UCvSrWeilliH9cDUrn-CR3oQ';
-const delay = 1000; // 10 min
-
-let getSubscribers = () => {
-
-    fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
-    .then(response => {
-        return response.json()
-    })
-    .then(data => {
-        console.log(data);
-        subCount.innerHTML = data["items"][0].statistics.subscriberCount;
-    })
-
-}
-
-setInterval(() => {
-    getSubscribers();
-}, delay);
-
-
-
-var channelID = "UCvSrWeilliH9cDUrn-CR3oQ";
-var reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
-$.getJSON("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(reqURL)+channelID, function(data) {
-   var link = data.items[0].link;
-   var id = link.substr(link.indexOf("=")+1);
-$("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
-});
 
 
 $(window).load(function () {
 
+
+    const youtubeKey ='AIzaSyBblR3HwHtr1WYUgAyFySn00gxPJ4wDXhw';
+    const youtubeUser ='UCvSrWeilliH9cDUrn-CR3oQ';
+    const delay = 1000; // 10 min
+    const subCount = document.getElementById('subCount'); 
+   
+    
+    
+    
+    let getSubscribers = () => {
+    
+        fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${youtubeUser}&key=${youtubeKey}`)
+        .then(response => {
+            return response.json()
+        })
+        .then(data => {
+           
+            //console.log(data);
+            subCount.innerHTML = data["items"][0].statistics.subscriberCount;
+            
+        })
+    
+    }
+
+        getSubscribers();
+
+ 
+
+  
+    
+    
+    
+    var channelID = "UCvSrWeilliH9cDUrn-CR3oQ";
+    var reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
+    $.getJSON("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(reqURL)+channelID, function(data) {
+       var link = data.items[0].link;
+       var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
+    });
+    
  
 
   
