@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1{
   font-size: 5rem;
+  text-shadow: 1px 1px 10px rgb(68, 68, 68);
 }
 .game-headings{
   margin-top: 5px;width: 375.5px;font-size: 43.3px;font-family: 'Bebas Neue', cursive;color: rgb(0,42,59);
@@ -70,10 +71,12 @@ p{
 .games-container{
   box-shadow: 2px 8px 20px 1px;
   border-radius: 12px;
-  background: #d3d3d3;
+  background: #ffffff;
   width: auto;
   max-width: 1000px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+
+  margin-top: 2rem;
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
