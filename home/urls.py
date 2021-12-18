@@ -1,7 +1,8 @@
 
 from django.contrib import admin
 from django.urls import path
-from home import views
+from django.conf.urls import url
+from . import views
 
 urlpatterns = [
      path('',views.index,name='home'),
@@ -9,6 +10,8 @@ urlpatterns = [
      path('services/',views.services,name='services'),
      path('contact/',views.contact,name='contact'),
      path('donate/',views.donate,name='donate'),
-     path('download/',views.download,name='download')
+     # path('download/',views.download,name='download'),
+     url(r'^$', views.index, name='home'),
+     url(r'^download/', views.download, name='download')
     
 ]

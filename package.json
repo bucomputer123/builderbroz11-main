@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
     "jquery": "^3.6.0",
-    "mdb-ui-kit": "^3.10.1"
+    "mdb-ui-kit": "^3.10.1",
+    "twit": "^2.2.11"
   },
   "devDependencies": {
     "request": "^2.88.2"
