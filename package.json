@@ -5,6 +5,7 @@
     "express": "^4.17.2",
     "jquery": "^3.6.0",
     "mdb-ui-kit": "^3.10.1",
+    "require": "^2.4.20",
     "twit": "^2.2.11"
   },
   "devDependencies": {

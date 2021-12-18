@@ -5,17 +5,17 @@
 {% block body %}
 <script>
 	var settings = {
-	"url" : "https://api.razorpay.com/v1/payments/",
-	"method": "GET",
-	"timeout": 0,
-	"headers": {
-	  "Authorization": "Basic cnpwX2xpdmVfY3h5UmY0eGltY2hKSWw6Tm9PMWVIOWc4dTMzSmUya2ZTU1FFUW5B"
-	},
-  };
+  "url": "https://cros-anywhere.herokuapp.com/https://api.razorpay.com/v1/payments/",
+  "method": "GET",
+  "timeout": 0,
+  "headers": {
+    "Authorization": "Basic cnpwX2xpdmVfY3h5UmY0eGltY2hKSWw6Tm9PMWVIOWc4dTMzSmUya2ZTU1FFUW5B"
+  },
+};
 
-  $.ajax(settings).done(function (response) {
-	console.log(response);
-  });
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
   </script>
 
 
