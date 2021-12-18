@@ -38,6 +38,7 @@ INSTALLED_APPS = ['home',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'express',
 ]
 
 MIDDLEWARE = [

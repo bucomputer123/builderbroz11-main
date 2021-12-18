@@ -1,12 +1,6 @@
-const cors = require("cors")
-app.use(cors({
-    origin:'http://127.0.0.1:8000', 
-     methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type'],
-  credentials: true
-}))
 
-
+const express = require('express')
+const app = express()
 // var settings = {
 //     "url": "https://api.twitter.com/2/users/1471330955637837826/tweets",
 //     "method": "GET",

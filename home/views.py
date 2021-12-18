@@ -2,6 +2,22 @@ from django.http import response
 from django.shortcuts import render  , HttpResponse
 import razorpay  
 
+
+def application(environ, start_response):
+  if environ['REQUEST_METHOD'] == 'OPTIONS':
+    start_response(
+      '200 OK',
+      [
+        ('Content-Type', 'application/json'),
+        ('Access-Control-Allow-Origin', '*'),
+        ('Access-Control-Allow-Headers', 'Authorization, Content-Type'),
+        ('Access-Control-Allow-Methods', 'POST'),
+      ]
+    )
+    return ''
+
+
+
 # Create your views here.
 def index(request):
     return render(request,'index.html')
