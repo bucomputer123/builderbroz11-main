@@ -7,19 +7,19 @@ $(window).load(function () {
     
 
 
-var settings = {
-    "url": "https://cros-anywhere.herokuapp.com/https://api.twitter.com/2/users/1471330955637837826/tweets",
-    "method": "GET",
-    "timeout": 0,
-    "headers": {
-      "Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAAF%2BpXAEAAAAA%2F%2BdZ5p4EyPY5vUBRNYNwcfP7WcA%3DmGYtD5dumYaoOD4K1eM7San4B3GCJ5gg6CANz6YflrQAN1k4tZ",
-      "Cookie": "guest_id=v1%3A163982968721781484; guest_id_ads=v1%3A163982968721781484; guest_id_marketing=v1%3A163982968721781484; personalization_id=\"v1_BYscqoAV+ygfTMR4hLC+Cw==\""
-    },
-  };
+// var settings = {
+//     "url": "https://cros-anywhere.herokuapp.com/https://api.twitter.com/2/users/1471330955637837826/tweets",
+//     "method": "GET",
+//     "timeout": 0,
+//     "headers": {
+//       "Authorization": "Bearer AAAAAAAAAAAAAAAAAAAAAF%2BpXAEAAAAA%2F%2BdZ5p4EyPY5vUBRNYNwcfP7WcA%3DmGYtD5dumYaoOD4K1eM7San4B3GCJ5gg6CANz6YflrQAN1k4tZ",
+//       "Cookie": "guest_id=v1%3A163982968721781484; guest_id_ads=v1%3A163982968721781484; guest_id_marketing=v1%3A163982968721781484; personalization_id=\"v1_BYscqoAV+ygfTMR4hLC+Cw==\""
+//     },
+//   };
   
-  $.ajax(settings).done(function (response) {
-    console.log(response);
-  });
+//   $.ajax(settings).done(function (response) {
+//     console.log(response);
+//   });
 
 
 
