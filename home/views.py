@@ -42,33 +42,33 @@ def download(request):
     return render(request,'download.html')
 
 
-import requests
+# import requests
 
-url = "https://api.razorpay.com/v1/payments/"
+# url = "https://api.razorpay.com/v1/payments/"
 
-payload = ""
-headers = {
-  'Authorization': 'Basic cnpwX2xpdmVfY3h5UmY0eGltY2hKSWw6Tm9PMWVIOWc4dTMzSmUya2ZTU1FFUW5B'
-}
+# payload = ""
+# headers = {
+#   'Authorization': 'Basic cnpwX2xpdmVfY3h5UmY0eGltY2hKSWw6Tm9PMWVIOWc4dTMzSmUya2ZTU1FFUW5B'
+# }
 
-response = requests.request("GET", url, headers=headers, data=payload)
+# response = requests.request("GET", url, headers=headers, data=payload)
 
-data =response.text
-
-
+# data =response.text
 
 
 
-parsed = json.loads(data)
-#resp_file = json.load(response)
-# ins = suppotors(response_file.items)
-items =parsed['items']
 
-for i in items:
-   if i['status'] != "failed":
-      print(i['amount'])
-      ins = suppotors(name=i['notes']['name'] , amount = i['amount'])
-      ins.save()
+
+# parsed = json.loads(data)
+
+
+# items =parsed['items']
+
+# for i in items:
+#    if i['status'] != "failed":
+#       print(i['amount'])
+#       ins = suppotors(name=i['notes']['name'] , amount = i['amount'])
+#       ins.save()
   
 #print(resp)
 
