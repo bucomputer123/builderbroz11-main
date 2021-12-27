@@ -41,7 +41,7 @@ def donate(request):
 
 def download(request):
     
-    supoters = suppotors.objects.filter().order_by('amount')
+    supoters = suppotors.objects.filter().order_by('-amount')
   
 
 
@@ -75,34 +75,16 @@ def download(request):
                 duplicatecheck(ins)
                 if(duplicatecheck(ins)):
                     ins.save()
-               
-           
 
-                
-                
-                
-            # print(field_value)
-            # if i['notes']['name'] != field_value:
-            #     print(i['notes']['name'] , field_value)
-            #     ins = suppotors(name=i['notes']['name'] , amount = i['amount'])
-            #     ins.save()
-            # else:
-            #     print("error")
     
 
 
     return render(request,'download.html' , {'supoters': supoters})
-# field_name = 'name'
-# obj = suppotors.objects.first()
-# field_object = suppotors._meta.get_field(field_name)
-# field_value = field_object.value_from_object(obj)
-# print(field_value)
 
 
-# render(request,'download.html',{'supoters': supoters})
 
 def duplicatecheck(ins):
-    supoters = suppotors.objects.filter().order_by('amount')
+    supoters = suppotors.objects.filter().order_by('-amount')
     for t in supoters:
         if t.name==ins.name:
             print(t.name , ins.name)
