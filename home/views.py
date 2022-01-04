@@ -39,7 +39,7 @@ def contact(request):
 def donate(request):
     return render(request,'donate.html')
 
-def download(request):
+def suppoters(request):
     
     supoters = suppotors.objects.filter().order_by('-amount')
   
@@ -79,7 +79,7 @@ def download(request):
     
 
 
-    return render(request,'download.html' , {'supoters': supoters})
+    return render(request,'suppoters.html' , {'supoters': supoters})
 
 
 

@@ -12,6 +12,6 @@ urlpatterns = [
      path('donate/',views.donate,name='donate'),
      # path('download/',views.download,name='download'),
      url(r'^$', views.index, name='home'),
-     url(r'^download/', views.download, name='download')
+     url(r'^suppoters/', views.suppoters, name='suppoters')
     
 ]

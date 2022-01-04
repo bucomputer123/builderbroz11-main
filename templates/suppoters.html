@@ -38,9 +38,13 @@
 // });
   </script>
 {% for sup in supoters%}
+<div class="container" style="text-align: center; background-color: rgb(0, 0, 0);">
+  <div style="">
+  <h1>{{sup.name}}</h1>
+  <!-- <h3>{{highest}}</h3> -->
+  <h4>{{sup.amount}}</h4>
+  </div>
+</div>
 
-<h1>{{sup.name}}</h1>
-<h3>{{highest}}</h3>
-<h4>{{sup.amount}}</h4>
 {% endfor %}
 {% endblock body%}
