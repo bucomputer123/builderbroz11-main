@@ -34,6 +34,18 @@ html,
     border-color:#3DB2FF;
     box-sizing: border-box;
 }
+.patreon-btn{
+  height: 10px;
+  width: 240px;
+  font-family: 'Assistant', sans-serif;
+  font-display: 100px;
+  text-align: center;
+  padding-bottom: 40px;
+  border-radius: 25px;  
+  background-color: #fb4b4b;
+  border-color:#0099ff00;
+  box-sizing: border-box;
+}
 
 /* --------------------------------------------------------------------------------------------------------- */
 
